@@ -87,10 +87,6 @@ header {
     background-color: lightgray;
 }
 
-.has-sub-menu:hover {
-    background-color: rgb(143, 138, 138);
-}
-
 /*sub-menu*/
 .sub-menu {
     /*form*/
