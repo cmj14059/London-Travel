@@ -3,7 +3,7 @@
 
 <head>
     <title>London Travel Top</title>
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/header_jp.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
     <script type="text/javascript" src="js/jump.js"></script>
@@ -11,7 +11,7 @@
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 
-<body onload="readySubList()">
+<body>
     <!--HEADER START-->
     <header>
         <!--UPPER_MENU START-->
@@ -21,7 +21,7 @@
                     <a href="index_jp.html">トップ</a>
                 </li>
                 <li>
-                    <a href="page/booking.html">予約</a>
+                    <a href="page/booking_jp.html">予約</a>
                 </li>
                 <li>
                     <a href="#main-content-cautions">注意</a>
@@ -44,7 +44,9 @@
         <nav id="main-menu">
             <ul id="main-menu-list">
                 <li class="has-sub-menu">
-                    <span>ハリーポッターツアー</span>
+                    <span>
+                        <a href="#main-content-tourAbout-harryPotterTour">ハリーポッターツアー</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
                         <li><a href="page/harryPotterTour_jp.html#main-content-oneDayTour">日帰りツアー</a></li>
                         <li><a href="page/harryPotterTour_jp.html#main-content-twoDayTour">1泊2日ツアー</a></li>
@@ -52,7 +54,9 @@
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>歴史ツアー</span>
+                    <span>
+                        <a href="#main-content-tourAbout-historyTour">歴史ツアー</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
                         <li><a href="page/historyTour_jp.html#main-content-oneDayTour">日帰りツアー</a></li>
                         <li><a href="page/historyTour_jp.html#main-content-twoDayTour">1泊2日ツアー</a></li>
@@ -60,7 +64,9 @@
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>自然ツアー</span>
+                    <span>
+                        <a href="#main-content-tourAbout-natureTour">自然ツアー</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
                         <li><a href="page/natureTour_jp.html#main-content-oneDayTour">日帰りツアー</a></li>
                         <li><a href="page/natureTour_jp.html#main-content-twoDayTour">1泊2日ツアー</a></li>
@@ -87,7 +93,7 @@
         <!--MAIN_CONTENT_LOGO START-->
         <div id="main-content-logo">
             <h1>LONDON&nbsp;TRAVEL</h1><br>
-            <h2>Three Tours, One Easy Choice</h2>   
+            <h2>Three Tours, One Easy Choice</h2>
         </div>
         <!--MAIN_CONTENT_LOGO END-->
         <!--MAIN_CONTENT_ABOUT START-->
@@ -104,26 +110,39 @@
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
                         <p>
-                            仲間のハリー・ポッター愛好家と一緒に、英国の豊かな自然とユニークな街並みを探索しましょう!
+                            このツアーはあなたを素晴らしいハリーポッターの世界へ誘います。
                         </p>
                         <p>
-                            英国のさまざまな島々を旅すると、多くの自然や動物種と接触することになります。
+                            ハリーポッタースタジオだけではなく、素晴らしいガイドと共に映画のロケ地を巡ります。
                         </p>
                         <p>
-                            旅行中には、英国の自然のおいしい特産品を試す機会もあります。
-                        </p>
-                        <p>
-                            イギリスの自然を知り尽くしたガイドが同行する、見逃せないツアーです！
+                            ハリーポッター好きと共にイギリスの豊かで独特な景観を探索しましょう！
                         </p>
                     </div>
+                    <div class="main-content-tourAbout-detail-option">
+                        <div>
+                            <p><img src="img/icon/guide.png" alt="guide"></p>
+                            <p>ガイド付き</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/hotel.png" alt="hotel"></p>
+                            <p>ホテル予約</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/family.png" alt="family"></p>
+                            <p>家族向け</p>
+                        </div>
+                    </div>
                     <p>
-                        <button onclick="jumpPage('page/harryPotterTour.html#main-content-oneDayTour')">日帰りツアー</button>
+                        <button
+                            onclick="jumpPage('page/harryPotterTour_jp.html#main-content-oneDayTour')">日帰りツアー</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/harryPotterTour.html#main-content-twoDayTour')">1泊2日ツアー</button>
+                        <button
+                            onclick="jumpPage('page/harryPotterTour_jp.html#main-content-twoDayTour')">1泊2日ツアー</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/booking.html')">予約</button>
+                        <button onclick="jumpPage('page/booking_jp.html')">予約</button>
                     </p>
                 </div>
             </div>
@@ -140,26 +159,37 @@
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
                         <p>
-                            このツアーでは、ロンドンの素晴らしい景色をお楽しみいただけます。
+                            このツアーで、あなたはロンドンの想像を超えた景色を楽しむことができるでしょう。
                         </p>
                         <p>
-                            ビッグベンとバッキンガム宮殿は、19世紀にタイムスリップします。
+                            ビッグベンとバッキンガム宮殿は19世紀へあなたを招待します。
                         </p>
                         <p>
-                            世界の名所を巡る最もスタンダードなツアープランです。
-                        </p>
-                        <p>
-                            このツアーを選んで、楽しい旅を！
+                            世界で最も有名な観光地の数々が含まれたツアーにぜひ参加してみませんか？
                         </p>
                     </div>
+                    <div class="main-content-tourAbout-detail-option">
+                        <div>
+                            <p><img src="img/icon/guide.png" alt="guide"></p>
+                            <p>ガイド付き</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/hotel.png" alt="hotel"></p>
+                            <p>ホテル予約</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/adult.png" alt="adult"></p>
+                            <p>大人向け</p>
+                        </div>
+                    </div>
                     <p>
-                        <button onclick="jumpPage('page/historyTour.html#main-content-oneDayTour')">日帰りツアー</button>
+                        <button onclick="jumpPage('page/historyTour_jp.html#main-content-oneDayTour')">日帰りツアー</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/historyTour.html#main-content-twoDayTour')">1泊2日ツアー</button>
+                        <button onclick="jumpPage('page/historyTour_jp.html#main-content-twoDayTour')">1泊2日ツアー</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/booking.html')">予約</button>
+                        <button onclick="jumpPage('page/booking_jp.html')">予約</button>
                     </p>
                 </div>
             </div>
@@ -176,26 +206,37 @@
                 <div class="main-content-tourAbout-detail">
                     <div class="main-content-tourAbout-detail-explain">
                         <p>
-                            仲間のハリー・ポッター愛好家と一緒に、英国の豊かな自然とユニークな街並みを探索しましょう!
+                            イギリスの島々を巡るこのツアーでは多くの自然と動物に触れあうことができます。
                         </p>
                         <p>
-                            英国のさまざまな島々を旅すると、多くの自然や動物種と接触することになります。
+                            ツアーの中で自然豊かな食事も味わうことが可能です。
                         </p>
                         <p>
-                            旅行中には、英国の自然のおいしい特産品を試す機会もあります。
-                        </p>
-                        <p>
-                            イギリスの自然を知り尽くしたガイドが同行する、見逃せないツアーです！
+                            イギリスの専門家と共に周遊できるこのツアーへの参加を心よりお待ちしております。
                         </p>
                     </div>
+                    <div class="main-content-tourAbout-detail-option">
+                        <div>
+                            <p><img src="img/icon/guide.png" alt="guide"></p>
+                            <p>ガイド付き</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/hotel.png" alt="hotel"></p>
+                            <p>ホテル予約</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/cruise.png" alt="cruise"></p>
+                            <p>クルーズ</p>
+                        </div>
+                    </div>
                     <p>
-                        <button onclick="jumpPage('page/natureTour.html#main-content-oneDayTour')">日帰りツアー</button>
+                        <button onclick="jumpPage('page/natureTour_jp.html#main-content-oneDayTour')">日帰りツアー</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/natureTour.html#main-content-twoDayTour')">1泊2日ツアー</button>
+                        <button onclick="jumpPage('page/natureTour_jp.html#main-content-twoDayTour')">1泊2日ツアー</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/booking.html')">予約</button>
+                        <button onclick="jumpPage('page/booking_jp.html')">予約</button>
                     </p>
                 </div>
             </div>
@@ -206,23 +247,23 @@
         <div id="main-content-cautions">
             <ol>
                 <li>
-                    イギリスの入国手続きは厳しい。 求められるものに備えて書類を用意してください。帰りの航空券、ホテルの場所、滞在する場所、旅行の日付（ある場合）。
+                    イギリスは入国審査が厳しいため、帰りの航空券、ホテルの場所、宿泊先、旅行日程を事前に予約させて頂きます。
                 </li>
                 <li>
-                    フード付きの撥水ジャケットを着用してください。 山と同じように、天気はすぐに変わります。短時間で簡単に。
+                    フード付きの撥水性ジャケットを持参することお勧めします。
                 </li>
                 <li>
-                    レシートに「サービス料別」とある場合は、チップが必要です。 料金の10%程度のチップを預けることができます。
+                    食事をした店舗のレシートに「サービス料別」と記載されている場合はチップが必要となります。
                 </li>
                 <li>
-                    英国では駅、プラットホーム、バス停での喫煙は禁止されています。
-                    また、屋外での飲酒が禁止されている場所もありますのでご注意ください。
+                    イギリスでは、駅構内、ホーム、バス停などでの喫煙は禁止されています。
+                    さらに、屋外での飲酒が禁止されている地域もありますので、ご注意ください。
                 </li>
                 <li>
-                    イギリスの食べ物はまずいことで有名です。 いくつかの英国料理には、独自の塩とコショウまたはソースが添えられていることを知っておく必要があります。
+                    塩・コショウやソースが必要な場合は各自で用意して頂くようよろしくお願い致します。
                 </li>
                 <li>
-                    レストランは非常に高価なので、価格を抑えたい場合は、レストランではなくパブや市場で食事をする必要があります.
+                    レストランの平均価格が高いと感じた場合は別の店舗で食事をすることも可能です。
                 </li>
             </ol>
         </div>

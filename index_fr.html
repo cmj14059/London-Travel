@@ -11,7 +11,7 @@
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 
-<body onload="readySubList()">
+<body>
     <!--HEADER START-->
     <header>
         <!--UPPER_MENU START-->
@@ -21,7 +21,7 @@
                     <a href="index_fr.html">Top</a>
                 </li>
                 <li>
-                    <a href="page/booking.html">Réservation</a>
+                    <a href="page/booking_fr.html">Réservation</a>
                 </li>
                 <li>
                     <a href="#main-content-cautions">Attention</a>
@@ -44,26 +44,32 @@
         <nav id="main-menu">
             <ul id="main-menu-list">
                 <li class="has-sub-menu">
-                    <span>Harry Potter Tournée</span>
+                    <span>
+                        <a href="#main-content-tourAbout-harryPotterTour">Harry Potter Tournée</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li><a href="page/harryPotterTour.html#main-content-oneDayTour">Un Jour Tournée</a></li>
-                        <li><a href="page/harryPotterTour.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                        <li><a href="page/harryPotterTour_fr.html#main-content-oneDayTour">Un Jour Tournée</a></li>
+                        <li><a href="page/harryPotterTour_fr.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
                         <li><a href="#main-content-tourAbout-harryPotterTour">Aperçu</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>L'histoire Tournée</span>
+                    <span>
+                        <a href="#main-content-tourAbout-historyTour">L'histoire Tournée</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li><a href="page/historyTour.html#main-content-oneDayTour">Un Jour Tournée</a></li>
-                        <li><a href="page/historyTour.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                        <li><a href="page/historyTour_fr.html#main-content-oneDayTour">Un Jour Tournée</a></li>
+                        <li><a href="page/historyTour_fr.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
                         <li><a href="#main-content-tourAbout-historyTour">Aperçu</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>Nature Tournée</span>
+                    <span>
+                        <a href="#main-content-tourAbout-natureTour">Nature Tournée</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li><a href="page/natureTour.html#main-content-oneDayTour">Un Jour Tournée</a></li>
-                        <li><a href="page/natureTour.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                        <li><a href="page/natureTour_fr.html#main-content-oneDayTour">Un Jour Tournée</a></li>
+                        <li><a href="page/natureTour_fr.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
                         <li><a href="#main-content-tourAbout-natureTour">Aperçu</a></li>
                     </ul>
                 </li>
@@ -87,7 +93,7 @@
         <!--MAIN_CONTENT_LOGO START-->
         <div id="main-content-logo">
             <h1>LONDON&nbsp;TRAVEL</h1><br>
-            <h2>Trois circuits, un choix facile</h2>
+            <h2>Three Tours, One Easy Choice</h2>
         </div>
         <!--MAIN_CONTENT_LOGO END-->
         <!--MAIN_CONTENT_ABOUT START-->
@@ -115,16 +121,30 @@
                             d'autres amateurs de Harry Potter !
                         </p>
                     </div>
+                    <div class="main-content-tourAbout-detail-option">
+                        <div>
+                            <p><img src="img/icon/guide.png" alt="guide"></p>
+                            <p>Guidé</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/hotel.png" alt="hotel"></p>
+                            <p>Réservations d'hôtel</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/family.png" alt="family"></p>
+                            <p>Famille</p>
+                        </div>
+                    </div>
                     <p>
-                        <button onclick="jumpPage('page/harryPotterTour.html#main-content-oneDayTour')">Un Jour
+                        <button onclick="jumpPage('page/harryPotterTour_fr.html#main-content-oneDayTour')">Un Jour
                             Tournée</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/harryPotterTour.html#main-content-twoDayTour')">Duex Jours
+                        <button onclick="jumpPage('page/harryPotterTour_fr.html#main-content-twoDayTour')">Duex Jours
                             Tournée</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/booking.html')">Réservation</button>
+                        <button onclick="jumpPage('page/booking_fr.html')">Réservation</button>
                     </p>
                 </div>
             </div>
@@ -154,16 +174,30 @@
                             Choisissez ce circuit et profitez de votre voyage !
                         </p>
                     </div>
+                    <div class="main-content-tourAbout-detail-option">
+                        <div>
+                            <p><img src="img/icon/guide.png" alt="guide"></p>
+                            <p>Guidé</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/hotel.png" alt="hotel"></p>
+                            <p>Réservations d'hôtel</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/adult.png" alt="adult"></p>
+                            <p>Adulte</p>
+                        </div>
+                    </div>
                     <p>
-                        <button onclick="jumpPage('page/historyTour.html#main-content-oneDayTour')">Un Jour
+                        <button onclick="jumpPage('page/historyTour_fr.html#main-content-oneDayTour')">Un Jour
                             Tournée</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/historyTour.html#main-content-twoDayTour')">Duex Jours
+                        <button onclick="jumpPage('page/historyTour_fr.html#main-content-twoDayTour')">Duex Jours
                             Tournée</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/booking.html')">Réservation</button>
+                        <button onclick="jumpPage('page/booking_fr.html')">Réservation</button>
                     </p>
                 </div>
             </div>
@@ -197,14 +231,30 @@
                             manquer !
                         </p>
                     </div>
+                    <div class="main-content-tourAbout-detail-option">
+                        <div>
+                            <p><img src="img/icon/guide.png" alt="guide"></p>
+                            <p>Guidé</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/hotel.png" alt="hotel"></p>
+                            <p>Réservations d'hôtel</p>
+                        </div>
+                        <div>
+                            <p><img src="img/icon/cruise.png" alt="cruise"></p>
+                            <p>Croisière</p>
+                        </div>
+                    </div>
                     <p>
-                        <button onclick="jumpPage('page/natureTour.html#main-content-oneDayTour')">One Day Tour</button>
+                        <button onclick="jumpPage('page/natureTour_fr.html#main-content-oneDayTour')">Un Jour
+                            Tournée</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/natureTour.html#main-content-twoDayTour')">Two Day Tour</button>
+                        <button onclick="jumpPage('page/natureTour_fr.html#main-content-twoDayTour')">Duex Jours
+                            Tournée</button>
                     </p>
                     <p>
-                        <button onclick="jumpPage('page/booking.html')">Réservation</button>
+                        <button onclick="jumpPage('page/booking_fr.html')">Réservation</button>
                     </p>
                 </div>
             </div>
@@ -237,7 +287,7 @@
                 </li>
                 <li>
                     Les restaurants sont extrêmement chers, donc si vous voulez maintenir des prix bas, vous devriez
-                    manger dans les pubs et les marchés plutôt que dans les restaurants.
+                    manger dans les bars et les marchés plutôt que dans les restaurants.
                 </li>
             </ol>
         </div>

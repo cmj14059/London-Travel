@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <title>London Air > Booking</title>
@@ -18,22 +18,22 @@
         <nav id="upper-menu">
             <ul id="upper-menu-list">
                 <li>
-                    <a href="../index.html">Top</a>
+                    <a href="../index_fr.html">Top</a>
                 </li>
                 <li>
-                    <a href="booking.html" id="booking">Booking</a>
+                    <a href="booking_fr.html">Réservation</a>
                 </li>
                 <li>
-                    <a href="../index.html#main-content-cautions">Cautions</a>
+                    <a href="../index_fr.html#main-content-cautions">Attention</a>
                 </li>
                 <li class="has-sub-menu">
-                    <span>English</span>
+                    <span>Français</span>
                     <ul class="sub-menu upper-menu-list-top">
                         <li>
-                            <a href="booking_fr.html">Français</a>
+                            <a href="booking.html">Anglais</a>
                         </li>
                         <li>
-                            <a href="booking_jp.html">Japanese</a>
+                            <a href="booking_jp.html">Japonais</a>
                         </li>
                     </ul>
                 </li>
@@ -44,45 +44,33 @@
         <nav id="main-menu">
             <ul id="main-menu-list">
                 <li class="has-sub-menu">
-                    <span>Harry Potter Tour</span>
+                    <span>
+                        <a href="../index_fr.html#main-content-tourAbout-harryPotterTour">Harry Potter Tournée</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li>
-                            <a href="harryPotterTour.html#main-content-oneDayTour">One Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="harryPotterTour.html#main-content-twoDayTour">Two Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="../index.html#main-content-tourAbout-harryPotterTour">About</a>
-                        </li>
+                        <li><a href="harryPotterTour_fr.html#main-content-oneDayTour">Un Jour Tournée</a></li>
+                        <li><a href="harryPotterTour_fr.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                        <li><a href="../index_fr.html#main-content-tourAbout-harryPotterTour">Aperçu</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>History Tour</span>
+                    <span>
+                        <a href="../index_fr.html#main-content-tourAbout-historyTour">L'histoire Tournée</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li>
-                            <a href="historyTour.html#main-content-oneDayTour">One Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="historyTour.html#main-content-twoDayTour">Two Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="../index.html#main-content-tourAbout-historyTour">About</a>
-                        </li>
+                        <li><a href="historyTour_fr.html#main-content-oneDayTour">Un Jour Tournée</a></li>
+                        <li><a href="historyTour_fr.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                        <li><a href="../index_fr.html#main-content-tourAbout-historyTour">Aperçu</a></li>
                     </ul>
                 </li>
                 <li class="has-sub-menu">
-                    <span>Nature Tour</span>
+                    <span>
+                        <a href="../index_fr.html#main-content-tourAbout-natureTour">Nature Tournée</a>
+                    </span>
                     <ul class="sub-menu main-menu-list-top">
-                        <li>
-                            <a href="natureTour.html#main-content-oneDayTour">One Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="natureTour.html#main-content-twoDayTour">Two Day Tour</a>
-                        </li>
-                        <li>
-                            <a href="../index.html#main-content-tourAbout-natureTour">About</a>
-                        </li>
+                        <li><a href="natureTour_fr.html#main-content-oneDayTour">Un Jour Tournée</a></li>
+                        <li><a href="natureTour_fr.html#main-content-twoDayTour">Duex Jours Tournée</a></li>
+                        <li><a href="../index_fr.html#main-content-tourAbout-natureTour">Aperçu</a></li>
                     </ul>
                 </li>
             </ul>
@@ -92,64 +80,64 @@
     <!--HEADER END-->
     <!--BOOKING START-->
     <form id="main-content">
-        <h1>Booking</h1>
+        <h1>Réservation</h1>
         <div id="main-content-booking">
             <!--Tour-->
-            <h2>Tour</h2>
+            <h2>Tournée</h2>
             <div>
-                <label for="select-tour">Tour:</label>
+                <label for="select-tour">Tournée:</label>
                 <select name="tour" id="select-tour">
-                    <option value="harry" selected>Harry Potter Tour</option>
-                    <option value="history">History Tour</option>
-                    <option value="nature">Nature Tour</option>
+                    <option value="harry" selected>Harry Potter Tournée</option>
+                    <option value="history">L'histoire Tournée</option>
+                    <option value="nature">Nature Tournée</option>
                 </select>
                 <label for="select-type">Type:</label>
                 <select name="type" id="select-type">
-                    <option value="one" selected>One Day Tour</option>
-                    <option value="two">Two Day Tour</option>
+                    <option value="one" selected>Un Jour Tournée</option>
+                    <option value="two">Duex Jours Tournée</option>
                 </select>
             </div>
             <!--Member-->
-            <h2>Member</h2>
+            <h2>Membre</h2>
             <div id="main-content-booking-member">
                 <div class="main-content-booking-member-detail">
                     <div>
-                        <label for="select-member-pre">Preschool(~4):</label>
+                        <label for="select-member-pre">Préscolaire(~4):</label>
                         <input type="text" value="0" name="pre" id="select-member-pre">
                     </div>
                 </div>
                 <div class="main-content-booking-member-detail">
                     <div>
-                        <label for="select-member-gra">Gradeschooler(5~12):</label>
+                        <label for="select-member-gra">Grand-scolaire(5~12):</label>
                         <input type="text" value="0" name="gra" id="select-member-gra">
                     </div>
                 </div>
                 <div class="main-content-booking-member-detail">
                     <div>
-                        <label for="select-member-yad">Young Adult(13~21):</label>
+                        <label for="select-member-yad">Jeune Adulte(13~21):</label>
                         <input type="text" value="0" name="yad" id="select-member-yad">
                     </div>
                 </div>
                 <div class="main-content-booking-member-detail">
                     <div>
-                        <label for="select-member-adt">Adult(22~):</label>
+                        <label for="select-member-adt">Adulte(22~):</label>
                         <input type="text" value="0" name="adt" id="select-member-adt">
                     </div>
                 </div>
             </div>
             <div id="main-content-booking-date">
                 <h2>Date</h2>
-                <label for="select-day">Day:</label>
+                <label for="select-day">Jour:</label>
                 <input type="text" value="1" name="day" id="select-day">
-                <label for="select-year">Month:</label>
+                <label for="select-year">Mois:</label>
                 <input type="text" value="1" name="year" id="select-year">
             </div>
             <div>
-                <h2>Mail</h2>
+                <h2>Courrier</h2>
                 <input type="text" name="mail" id="select-mail">
             </div>
             <div class="main-content-booking-check">
-                <input type="button" value="Check">
+                <input type="button" value="Vérifier">
             </div>
         </div>
     </form>
