@@ -6,24 +6,25 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/booking.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="icon" type="image/png" href="img/icon/pageIcon.png">
     <script type="text/javascript" src="../js/jump.js"></script>
     <script type="text/javascript" src="../js/header.js"></script>
     <script type="text/javascript" src="../js/booking.js"></script>
 </head>
 
-<body>
+<body id="body-top">
     <!--HEADER START-->
-    <header>
+    <header id="header-menu">
         <!--UPPER_MENU START-->
         <nav id="upper-menu">
             <ul id="upper-menu-list">
-                <li>
+                <li class="upper-menu-list-single">
                     <a href="../index.html">Top</a>
                 </li>
-                <li>
+                <li class="upper-menu-list-single">
                     <a href="booking.html" id="booking">Booking</a>
                 </li>
-                <li>
+                <li class="upper-menu-list-single">
                     <a href="../index.html#main-content-cautions">Cautions</a>
                 </li>
                 <li class="has-sub-menu">
@@ -90,6 +91,24 @@
         <!--MAIN_MENU END-->
     </header>
     <!--HEADER END-->
+    <!--SNS_MENU START-->
+    <nav id="sns-menu">
+        <p>
+            <img src="../img/sns/instagram.png">
+        </p>
+        <p>
+            <img src="../img/sns/twitter.png">
+        </p>
+        <p>
+            <img src="../img/sns/facebook.png">
+        </p>
+    </nav>
+    <!--SNS_MENU END-->
+    <!--BACK_MENU START-->
+    <nav id="back-menu">
+        <img src="../img/icon/back.png" onclick="jumpTop()">
+    </nav>
+    <!--BACK_MENU END-->
     <!--BOOKING START-->
     <form id="main-content">
         <h1>Booking</h1>
@@ -135,6 +154,15 @@
                         <label for="select-member-adt">Adult(22~):</label>
                         <input type="text" value="0" name="adt" id="select-member-adt">
                     </div>
+                </div>
+                <div class="main-content-booking-member-detail">
+                    <div>
+                        <label for="select-member-dis">Disabled:</label>
+                        <input type="text" value="0" name="dis" id="select-member-dis">
+                    </div>
+                </div>
+                <div>
+                    <p>Notice : Preschool and Disabled is free fee.</p>
                 </div>
             </div>
             <div id="main-content-booking-date">

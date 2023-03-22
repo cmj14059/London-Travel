@@ -6,24 +6,25 @@
     <link rel="stylesheet" href="../css/header_jp.css">
     <link rel="stylesheet" href="../css/booking.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="icon" type="image/png" href="img/icon/pageIcon.png">
     <script type="text/javascript" src="../js/jump.js"></script>
     <script type="text/javascript" src="../js/header.js"></script>
     <script type="text/javascript" src="../js/booking.js"></script>
 </head>
 
-<body>
+<body id="body-top">
     <!--HEADER START-->
-    <header>
+    <header id="header-menu">
         <!--UPPER_MENU START-->
         <nav id="upper-menu">
             <ul id="upper-menu-list">
-                <li>
+                <li class="upper-menu-list-single">
                     <a href="../index_jp.html">トップ</a>
                 </li>
-                <li>
+                <li class="upper-menu-list-single">
                     <a href="booking_jp.html">予約</a>
                 </li>
-                <li>
+                <li class="upper-menu-list-single">
                     <a href="../index_jp.html#main-content-cautions">注意</a>
                 </li>
                 <li class="has-sub-menu">
@@ -78,6 +79,24 @@
         <!--MAIN_MENU END-->
     </header>
     <!--HEADER END-->
+    <!--SNS_MENU START-->
+    <nav id="sns-menu">
+        <p>
+            <img src="../img/sns/instagram.png">
+        </p>
+        <p>
+            <img src="../img/sns/twitter.png">
+        </p>
+        <p>
+            <img src="../img/sns/facebook.png">
+        </p>
+    </nav>
+    <!--SNS_MENU END-->
+    <!--BACK_MENU START-->
+    <nav id="back-menu">
+        <img src="../img/icon/back.png" onclick="jumpTop()">
+    </nav>
+    <!--BACK_MENU END-->
     <!--BOOKING START-->
     <form id="main-content">
         <h1>予約</h1>
@@ -91,7 +110,7 @@
                     <option value="history">歴史ツアー</option>
                     <option value="nature">自然ツアー</option>
                 </select>
-                <label for="select-type">Type:</label>
+                <label for="select-type">種類:</label>
                 <select name="type" id="select-type">
                     <option value="one" selected>日帰りツアー</option>
                     <option value="two">1泊2日ツアー</option>
@@ -123,6 +142,9 @@
                         <label for="select-member-adt">大人(22~):</label>
                         <input type="text" value="0" name="adt" id="select-member-adt">
                     </div>
+                </div>
+                <div>
+                    <p>注意 : 幼児と障害者の料金は無料となります。</p>
                 </div>
             </div>
             <div id="main-content-booking-date">

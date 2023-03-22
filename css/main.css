@@ -1,4 +1,8 @@
 /*COMMON*/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /*box*/
     margin: 0px 0px 0px 0px;
@@ -83,6 +87,7 @@ body {
 
     /*font*/
     color: #999966;
+    text-shadow: 5px 5px 10px #808080;
 }
 
 #main-content-logo h1:before,
